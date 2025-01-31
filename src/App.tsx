@@ -24,7 +24,7 @@ function App() {
 
       {/* Main Content */}
       <div className="main-content">
-        <Header />
+        
 
         <div className="container">
           <h2 className="fw-bold mb-3">Proyectos</h2>
