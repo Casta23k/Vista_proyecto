@@ -1,0 +1,25 @@
+.small-card {
+    max-width: 240px; /* Tamaño reducido */
+    min-height: 240px;
+  }
+  
+  .card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .btn-sm {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  
+  .badge {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  

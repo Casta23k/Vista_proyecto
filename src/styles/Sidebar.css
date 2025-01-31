@@ -1,0 +1,54 @@
+.sidebar {
+    width: 250px; /* Fijamos el ancho */
+    height: 100vh; /* Ocupa toda la altura */
+    background-color: #6b4226; /* Color marrón */
+    color: white;
+    position: fixed; /* Sidebar fijo */
+    top: 0;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10; /* Se asegura de que no se superponga el contenido */
+  }
+  
+  .sidebar ul {
+    padding-left: 0;
+    list-style: none;
+    flex-grow: 1; /* Hace que crezca y empuje el logout hacia abajo */
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .sidebar a:hover {
+    background-color: #8a5b3c;
+  }
+  
+  /* Ajustamos el botón de logout */
+  .logout-btn {
+    background-color: #c0392b;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: auto; /* Lo empuja hacia abajo */
+  }
+  
+  .logout-btn:hover {
+    background-color: #a93226;
+  }
+  

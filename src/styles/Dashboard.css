@@ -1,0 +1,40 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f5e1c2;
+    min-height: 100vh;
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-buttons button {
+    padding: 8px 12px;
+    border: 1px solid #6b4226;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #6b4226;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #c69c6d;
+    color: white;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
